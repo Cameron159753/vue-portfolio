@@ -1,15 +1,16 @@
 <template>
 
   <div class="about">
-    <h1>
-      About me
-      <hr />
+    <h1 id="head1">
+      About me 
     </h1>
+    <i class="far fa-user"></i>
   </div>
+  <hr />
   <h2>Cameron Bowers</h2>
    
   <div class="row">
-    <div class="column left" style="background-color: #aaa">
+    <div class="column left" >
      <h2 id="head2">UI/UX Designer & Developer</h2>
       <p id="paragraph1">
       Consequatur dolor nisi labore commodi ipsa? Excepturi velit
@@ -23,7 +24,7 @@
         porro praesentium excepturi. Alias ab consequatur?
       </p>
     </div>
-    <div class="column right">
+    <div class="column right" >
       <h2>Personal Information</h2>
    <div class="stuff">
         <div id="name">
@@ -52,8 +53,12 @@
       </div>
     </div>
   </div>
-  <h2>Services</h2>
-
+  <h1 id="head1">
+      Services 
+    </h1>
+	 <hr />
+<br>
+<br>
   <div class="card">
     <img src="https://picsum.photos/200/300?random=2" />
     <div class="container">
@@ -116,21 +121,22 @@ hr {
   width: 65%;
 }
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
   transition: 0.3s;
   width: 20%;
-  margin-left: 300px;
+  margin-left: 63px;
   display: flex;
+  display: inline-block;
+ 
 }
 
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
+
 
 .container {
   padding: 2px 16px;
 }
-#head2{
-  text-align: left;
+#head1{
+ text-align: left;
+ padding-left: 320px;
 }
 </style>
