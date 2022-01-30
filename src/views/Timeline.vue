@@ -228,6 +228,9 @@ text-align: center;
 grid-gap:1rem;
 padding: 1rem 80px;
 font-size: 1.2rem;
+display: flex;
+/* display: inline-block; */
+padding-right: 20px;
 }
 .skills-box{
 padding: 1rem;

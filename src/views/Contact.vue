@@ -28,7 +28,23 @@
     </form>
   </div>
 
-
+<div class="container1">
+  <div class="card">
+    <i class="fas fa-envelope"></i>
+    <h2 class="card-title">Email</h2>
+    <p class="card-info">name@address.com</p>
+  </div>
+  <div class="card">
+    <i class="fas fa-phone"></i>
+    <h2 class="card-title">Phone number</h2>
+    <p class="card-info">+0 000 0000000</p>
+  </div>
+  <div class="card">
+    <i class="fas fa-map-marker-alt"></i>
+    <h2 class="card-title">Location</h2>
+    <p class="card-info">Greece</p>
+  </div>
+</div>
   
 
 </template>
@@ -104,4 +120,60 @@ textarea {
   line-height: 29px;
   line-height: 2rem;
 }
+
+.container1 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: #292929;
+  min-width: 300px;
+  height: 140px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.card i {
+  color: #d44444;
+  font-size: 2rem;
+  position: absolute;
+  transition: all 0.4s ease;
+}
+
+.card-title {
+  color: #d44444;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  transform: translate(0,-80px);
+  transition: all 0.4s ease;
+}
+
+.card-info {
+  color: #fff;
+  margin-top: 10px;
+  transform: translate(0, 80px);
+  transition: all 0.4s ease;
+}
+
+.card:hover i {
+  transform: scale(2);
+  opacity: 0;
+}
+
+.card:hover .card-title {
+  transform: translate(0, 0);
+}
+.card:hover .card-info {
+  transform: translate(0, 0);
+}
+
+
 </style>

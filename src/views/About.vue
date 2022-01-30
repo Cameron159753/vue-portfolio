@@ -59,7 +59,7 @@
 	 <hr />
 <br>
 <br>
-  <div class="card">
+  <div class="card1">
     <img src="https://picsum.photos/200/300?random=2" />
     <div class="container">
       <h4><b>John Doe</b></h4>
@@ -67,7 +67,7 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card1">
     <img src="https://picsum.photos/200/300?random=2" />
     <div class="container">
       <h4><b>John Doe</b></h4>
@@ -75,7 +75,7 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card1">
     <img src="https://picsum.photos/200/300?random=2" />
     <div class="container">
       <h4><b>John Doe</b></h4>
@@ -108,7 +108,7 @@ padding-left: 60px;
 
 .right {
   width: 20%;
-  margin-right: 250px;
+  margin-right: 150px;
 }
 
 .row:after {
@@ -120,7 +120,7 @@ hr {
   border-top: 1px dashed;
   width: 65%;
 }
-.card {
+.card1 {
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
   transition: 0.3s;
   width: 20%;
