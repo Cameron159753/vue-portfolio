@@ -4,12 +4,15 @@
     <router-link :to="{ name: 'About' }">About</router-link> |
     <router-link :to="{ name: 'Timeline' }">Timeline</router-link> |
     <router-link :to="{ name: 'Project' }">Project</router-link> |
-    <router-link :to="{ name: 'Contact' }">Contact</router-link>
+    <router-link :to="{ name: 'Testimonials' }">Testimonial</router-link> |
+    <router-link :to="{ name: 'Contact' }">Contact</router-link> 
   </div>
   <router-view />
+  
 </template>
 
 <style>
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -32,6 +35,7 @@
 }
 body {
   font-family: "Lato", sans-serif;
+  /* background-color: #111; */
 }
 
 #nav {
