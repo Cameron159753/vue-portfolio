@@ -2,8 +2,11 @@ import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home.vue";
 import About from "../views/About.vue";
 import Timeline from "../views/Timeline.vue";
-import Project from "../views/Project.vue";
-import Contact from "../views/Contact.vue"
+import Project from "../views/project/Project.vue";
+import Contact from "../views/Contact.vue";
+import ProjectDetails from "../views/project/ProjectDetails.vue";
+import Testimonials from "../views/testimonial/Testimonials.vue";
+import TestimonialDetails from "../views/testimonial/TestimonialDetails.vue";
 
 
 const routes = [
@@ -32,6 +35,21 @@ const routes = [
     name: "Contact",
     component: Contact,
   },
+  {
+    path: "/Project/:id",
+    name: "ProjectDetails",
+    component: ProjectDetails,
+  },
+  {
+    path: "/Testimonials",
+    name: "Testimonials",
+    component: Testimonials,
+  },
+  {
+    path: "/Testimonial/:id",
+    name: "TestimonialDetails",
+    component: TestimonialDetails,
+  }
 ];
 
 const router = createRouter({
