@@ -1,7 +1,9 @@
 <template>
   <div class="Contact">
     <h1 id="head1">Contact</h1>
-    <hr />
+    <div class="skills-header">
+       
+     </div>
   </div>
   <div class="container">
     <form>
@@ -129,6 +131,7 @@ textarea {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+
 }
 
 .card {

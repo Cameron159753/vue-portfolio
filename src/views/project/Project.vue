@@ -1,8 +1,11 @@
 <template>
-  <h1>Projects</h1>
+  <h1 id="head1">Projects</h1>
+   <div class="skills-header">
+       
+     </div>
   <div class="projects" v-if="Projects.length">
     <div v-for="Project of Projects" :key="Project.id" class="Project">
-      <div class="card1">
+      <div class="card2">
         <img :src="Project.img" alt="Avatar" style="width: 100%" />
         <div class="container2">
           <h4>
@@ -34,13 +37,13 @@ export default {
 </script>
 
 <style>
-.card1 {
+.card2 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 40%;
 }
 
-.card1:hover {
+.card2:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 

@@ -2,43 +2,45 @@
    <h1 id="head1">
       Timeline 
     </h1>
-	 <hr />
+	  <div class="skills-header">
+       
+     </div>
    <div class="Timeline">
 	<div class="timeline">
 		<ul>
 			<li>
-				<span>3rd January 2020</span>
+				<h4>High School</h4>
 				<div class="content">
-					<h3>What Is Lorem Ipsum?</h3>
+					<h3>2018</h3>
 					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+						The start of my coding journey where I learnt the basics of web development such as HTML and CSS.
 					</p>
 				</div>
 			</li>
 			<li>
-				<span>21st Jun 2019</span>
+			<h4>End of High School</h4>
 				<div class="content">
-					<h3>What Is Lorem Ipsum?</h3>
+					<h3>2019</h3>
 					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+						Studied more HTML and CSS. Did an online python cource and got a certificate of completion.
 					</p>
 				</div>
 			</li>
 			<li>
-				<span>15th April 2018</span>
+				<h4>CodeSpace</h4>
 				<div class="content">
-					<h3>What Is Lorem Ipsum?</h3>
+					<h3>2020</h3>
 					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+					I Went to Codespace to futher pursue my coding journey. I did a 4 month on HTML, CSS, javascript and Php
 					</p>
 				</div>
 			</li>
 			<li>
-				<span>22nd Mars 2017</span>
+				<h4>LifeChoices</h4>
 				<div class="content">
-					<h3>What Is Lorem Ipsum?</h3>
+					<h3>2021</h3>
 					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.
+					Started Lifechoices to further my knowledge of the coding world and get work experience
 					</p>
 				</div>
 			</li>
@@ -48,11 +50,13 @@
     <h1 id="head1">
       Skills 
     </h1>
-	 <hr />
-    <div class="skills-section">
-    <div class="skills-header">
-     <h1>Skills</h1>   
+  <div class="skills-header">
+       
      </div>
+    <div class="skills-section">
+    <!-- <div class="skills-header">
+       
+     </div> -->
      <div class="skills-container">
        
       <div class="skills-box">
@@ -62,7 +66,7 @@
         </div>
          <h3>HTML 5</h3>
         </div>
-        <P> Lorem  Lorem  Lorem  </P>
+       
        </div>
        
        
@@ -73,18 +77,18 @@
         </div>
         <h3>CSS3</h3>
         </div>
-        <P> Lorem  Lorem  Lorem  </P>   
+     
        </div>
        
        
         <div class="skills-box">
        <div class="skills-title">
        <div class="skills-img">
-        <img src="https://icon-library.net/images/javascript-icon-png/javascript-icon-png-23.jpg" alt="" class="skills-icons">
+        <img src="https://i.postimg.cc/rm30FS9M/java.png" alt="" class="skills-icons">
         </div>
         <h3>JAVASCRIPT</h3>
         </div>
-        <P> Lorem  Lorem  Lorem  </P>
+       
        </div>
        
           <div class="skills-box">
@@ -94,28 +98,20 @@
         </div>
         <h3>NODE.JS</h3>
         </div>
-        <P> Lorem  Lorem  Lorem  </P>
+       
        </div>
        
           <div class="skills-box">
        <div class="skills-title">
        <div class="skills-img">
-        <img src="https://mildaintrainings.com/wp-content/uploads/2017/11/react-logo.png" alt="" class="skills-icons">
+        <img src="https://i.postimg.cc/xTtQv9Wb/800px-Python-logo-notext-svg.png" alt="" class="skills-icons">
         </div>
-        <h3>REACT</h3>
+        <h3>Python</h3>
         </div>
-        <P> Lorem  Lorem  Lorem  </P>
+        
        </div>
        
-          <div class="skills-box">
-       <div class="skills-title">
-       <div class="skills-img">
-        <img src="https://javascriptforwp.com/wp-content/uploads/2019/03/badge-gatsby.png" alt="" class="skills-icons">
-        </div>
-        <h3>GATSBY.JS</h3>
-        </div>
-        <P> Lorem  Lorem  Lorem  </P>
-       </div>
+        
        
        
        </div>
@@ -254,7 +250,7 @@ margin-bottom: 0.5rem;
 position: relative;
 }
 
-.skills-title:after{
+/* .skills-title:after{
 content: '';
 position:absolute;
 bottom: 0;
@@ -264,8 +260,8 @@ height:4px;
 border-radius: 2px 0 0 2px;
 background-color: #2ecc71;
 transition: .5s;
-}
-
+} */
+/* 
 .skills-title:before{
 content: '';
 position:absolute;
@@ -275,7 +271,7 @@ width:100px;
 height:4px;
 border-radius: 0 2px 2px 0;
 background-color: #2ecc71;
-}
+} */
 
 .skills-icons{
 width:50px;
