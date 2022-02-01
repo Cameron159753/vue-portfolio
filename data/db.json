@@ -1,0 +1,84 @@
+{
+    "Projects": [
+        {
+            "id": 1,
+            "img": "",
+            "title": "number 1",
+            "github": "",
+            "netlify": ""
+        },
+        {
+            "id": 2,
+            "img": "",
+            "title": "number 1",
+            "github": "",
+            "netlify": ""
+        },
+        {
+            "id": 3,
+            "img": "",
+            "title": "number 1",
+            "github": "",
+            "netlify": ""
+        },
+        {
+            "id": 4,
+            "img": "",
+            "title": "number 1",
+            "github": "",
+            "netlify": ""
+        },
+        {
+            "id": 5,
+            "img": "",
+            "title": "number 1",
+            "github": "",
+            "netlify": ""
+        },
+        {
+            "id": 6,
+            "img": "",
+            "title": "number 1",
+            "github": "",
+            "netlify": ""
+        }
+    ],
+"Testimonials": [
+    {
+        "id": 1,
+      "img": "",
+      "title": "",
+      "paragraph": ""
+    },
+    {
+        "id": 2,
+      "img": "",
+      "title": "",
+      "paragraph": ""
+    },
+    {
+        "id": 3,
+      "img": "",
+      "title": "",
+      "paragraph": ""
+    },
+    {
+        "id": 4,
+      "img": "",
+      "title": "",
+      "paragraph": ""
+    },
+    {
+        "id": 5,
+      "img": "",
+      "title": "",
+      "paragraph": ""
+    },
+    {
+        "id": 6,
+      "img": "",
+      "title": "",
+      "paragraph": ""
+    }
+]
+}
