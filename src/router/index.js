@@ -50,6 +50,7 @@ const routes = [
     name: "TestimonialDetails",
     component: TestimonialDetails,
   }
+
 ];
 
 const router = createRouter({
