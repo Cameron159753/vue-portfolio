@@ -91,7 +91,7 @@ input[type="submit"] {
   padding-right: 40px;
   padding-bottom: 40px;
   padding-left: 40px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1); */
   border-radius: 3px;
   overflow: hidden;
  
@@ -120,6 +120,8 @@ textarea {
   line-height: 29px;
   line-height: 2rem;
 }
+
+/* skills */
 
 .container1 {
   width: 100%;
