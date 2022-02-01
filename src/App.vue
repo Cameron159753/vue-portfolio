@@ -1,7 +1,7 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link :to="{ name: 'About' }">About</router-link> |
+    <router-link to="/">Home</router-link> 
+    <i class="fa fa-user" style="font-size:24px"></i> <router-link :to="{ name: 'About' }">About</router-link> 
     <router-link :to="{ name: 'Timeline' }">Timeline</router-link> |
     <router-link :to="{ name: 'Project' }">Project</router-link> |
     <router-link :to="{ name: 'Testimonials' }">Testimonial</router-link> |
@@ -18,7 +18,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  /* color: #2c3e50; */
+  color: white;
 }
 
 #nav {
