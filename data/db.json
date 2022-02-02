@@ -1,84 +1,53 @@
 {
-    "Projects": [
-        {
-            "id": 1,
-            "img": "",
-            "title": "number 1",
-            "github": "",
-            "netlify": ""
-        },
-        {
-            "id": 2,
-            "img": "",
-            "title": "number 1",
-            "github": "",
-            "netlify": ""
-        },
-        {
-            "id": 3,
-            "img": "",
-            "title": "number 1",
-            "github": "",
-            "netlify": ""
-        },
-        {
-            "id": 4,
-            "img": "",
-            "title": "number 1",
-            "github": "",
-            "netlify": ""
-        },
-        {
-            "id": 5,
-            "img": "",
-            "title": "number 1",
-            "github": "",
-            "netlify": ""
-        },
-        {
-            "id": 6,
-            "img": "",
-            "title": "number 1",
-            "github": "",
-            "netlify": ""
-        }
-    ],
-"Testimonials": [
+  "Projects": [
     {
-        "id": 1,
-      "img": "",
-      "title": "",
-      "paragraph": ""
+      "id": 1,
+      "img": "https://i.postimg.cc/43tLvMTM/navbar.png",
+      "title": "navbar",
+      "github": "https://github.com/Cameron159753/navbar",
+      "netlify": "https://serene-jackson-f63d23.netlify.app/"
     },
     {
-        "id": 2,
-      "img": "",
-      "title": "",
-      "paragraph": ""
+      "id": 2,
+      "img": "https://i.postimg.cc/VvTnVfqF/mock-port.png",
+      "title": "mock portfolio",
+      "github": "https://github.com/Cameron159753/testimonial",
+      "netlify": "https://confident-nobel-841bfe.netlify.app/"
     },
     {
-        "id": 3,
-      "img": "",
-      "title": "",
-      "paragraph": ""
-    },
-    {
-        "id": 4,
-      "img": "",
-      "title": "",
-      "paragraph": ""
-    },
-    {
-        "id": 5,
-      "img": "",
-      "title": "",
-      "paragraph": ""
-    },
-    {
-        "id": 6,
-      "img": "",
-      "title": "",
-      "paragraph": ""
+      "id": 3,
+      "img": "https://i.postimg.cc/yNP9zXhx/todolist.png",
+      "title": "ToDo List",
+      "github": "https://github.com/Cameron159753/ToDoList",
+      "netlify": "https://vigilant-bell-f549f1.netlify.app/"
     }
-]
+    
+  ],
+  "Testimonials": [
+    {
+      "id": 1,
+      "img": "https://i.postimg.cc/ncSZz2Pf/Dalarno3.png",
+      "title": "Dalarno",
+      "paragraph": "Cameron, can be described as a smartworker, so much different from any other clients you'll have, he achieves expectations as well surpasses them. He would be a great addition to your team"
+    },
+    {
+      "id": 2,
+      "img": "https://i.postimg.cc/7hRkB1d2/Leigh-ann3-min.png",
+      "title": "Leigh-Anne",
+      "paragraph": "Cameron is a very delightful person with a unique personality. His always willing to help other. His a very smart worker and a problem solver.Cameron is a person with who you can speak openly to."
+    },
+    {
+      "id": 3,
+      "img": "https://i.postimg.cc/MHCLM9gd/alex.png",
+      "title": "Alex",
+      "paragraph": "Cameron has a natural talent when it comes to solving technical problems. He has good attention to detail."
+    },
+    {
+      "id": 4,
+      "img": "https://i.postimg.cc/CLM04Xqq/zharne.png",
+      "title": "Zharne",
+      "paragraph": "Cameron is a great web developer and produces high quality work. He is a problem-solver and is great to work with."
+    }
+   
+  ]
 }
