@@ -6,7 +6,7 @@
      </div>
   </div>
   <div class="container">
-    <form>
+    <form method="POST" action="https://formspree.io/f/xyylvzgn">
       <ul>
        
           <label for="name"
@@ -34,17 +34,17 @@
   <div class="card">
     <i class="fas fa-envelope"></i>
     <h2 class="card-title">Email</h2>
-    <p class="card-info">name@address.com</p>
+    <p class="card-info">cameronbowers22@gmail.com</p>
   </div>
   <div class="card">
     <i class="fas fa-phone"></i>
     <h2 class="card-title">Phone number</h2>
-    <p class="card-info">+0 000 0000000</p>
+    <p class="card-info">+27 72 964 4591</p>
   </div>
   <div class="card">
     <i class="fas fa-map-marker-alt"></i>
     <h2 class="card-title">Location</h2>
-    <p class="card-info">Greece</p>
+    <p class="card-info">South Africa</p>
   </div>
 </div>
   

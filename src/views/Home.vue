@@ -4,7 +4,7 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
   />
   <div class="home">
-   
+   <h1>Cameron Bowers</h1>
     <h1>I am <span id="text"></span></h1>
   </div>
  
@@ -91,4 +91,9 @@ body{
     background: white;
   }
 }
+.home{
+  padding-top: 200px;
+  font-size: 40px;
+}
+  
 </style>

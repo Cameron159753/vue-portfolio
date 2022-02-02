@@ -10,6 +10,8 @@
         <div class="container2">
           <h4>
             <b>{{ Project.title }}</b>
+            <button><a :href="Project.github">github</a></button>
+            <button><a :href="Project.netlify">netlify</a></button>
           </h4>
         </div>
       </div>
